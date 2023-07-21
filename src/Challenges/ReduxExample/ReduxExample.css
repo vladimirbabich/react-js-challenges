@@ -1,0 +1,34 @@
+.state-list {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.state-row {
+  display: flex;
+  justify-content: space-between;
+}
+.action {
+  margin-top: 3px;
+  display: flex;
+}
+.action input {
+  display: flex;
+  width: 0;
+  flex: 1;
+}
+.array-list {
+  border: 1px solid black;
+  padding: 0 2px;
+  display: flex;
+  flex-direction: row;
+}
+.array-item {
+  padding: 0 3px;
+}
+.array-item:not(:first-child) {
+  border-left: 1px dashed black;
+}
+button {
+  margin-left: 3px !important;
+}

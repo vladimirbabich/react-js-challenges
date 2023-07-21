@@ -1,0 +1,12 @@
+.result {
+  margin-top: 3px;
+  border-radius: 3px;
+  text-align: center;
+  border: 1px green solid;
+}
+.wrong {
+  border: 1px red solid;
+}
+input {
+  text-align: center;
+}

@@ -1,12 +1,12 @@
 import './App.css';
-import TodoList from './components/TodoList.tsx'
+import AppRouter from './components/AppRouter';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header.tsx';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <TodoList />
-      </header>
+      <Header />
+      <AppRouter></AppRouter>
     </div>
   );
 }

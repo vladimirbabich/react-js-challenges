@@ -1,0 +1,13 @@
+#array-select {
+  width: 100%;
+  padding: 2px;
+  margin-bottom: 5px;
+}
+.btn-mod-array {
+  margin: 0 !important;
+}
+.input-mod-array:disabled {
+  width: 100%;
+  margin: 3px 0 !important;
+  background-color: white;
+}
