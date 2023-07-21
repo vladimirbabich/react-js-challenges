@@ -9,6 +9,11 @@ import PrimeCounter from '../Challenges/PrimeCounter/PrimeCounter.tsx';
 export default function AppRouter() {
   const routes = [
     {
+      path: '/',
+      key: '/',
+      element: <Navigate to="/redux" />,
+    },
+    {
       path: '/todo-list',
       key: '/todo-list',
       element: <TodoList />,
