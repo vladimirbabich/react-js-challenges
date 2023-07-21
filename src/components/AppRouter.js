@@ -11,7 +11,7 @@ export default function AppRouter() {
     {
       path: '/',
       key: '/',
-      element: <Navigate to="/redux" />,
+      element: <Navigate to="/redux" replace={true}/>,
     },
     {
       path: '/todo-list',
